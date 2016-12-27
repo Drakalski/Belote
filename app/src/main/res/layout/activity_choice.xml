@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_choice"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.belote.belote.Choice">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/choice"
+            android:id="@+id/TopView"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/close" />
+
+        <Button
+            android:text="@string/single"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/btnSingle"
+            android:layout_alignParentBottom="true"
+            android:textSize="50dp"
+            android:background="#a4000000"
+            android:textColor="@android:color/background_light"
+            tools:ignore="SpUsage" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/choice"
+            android:id="@+id/imageView6"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/close" />
+
+        <Button
+            android:text="@string/tournament"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/btnTournament"
+            android:textSize="50dp"
+            android:textColor="@android:color/background_light"
+            android:background="#a4000000"
+            tools:ignore="SpUsage" />
+    </RelativeLayout>
+
+</LinearLayout>

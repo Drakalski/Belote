@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Belote</string>
+    <string name="single">Single</string>
+    <string name="close">Tournament</string>
+    <string name="tournament">Tournament</string>
+    <string name="title_activity_single">single</string>
+    <string name="team_two">Team Two</string>
+    <string name="team_one">Team One</string>
+
+</resources>
